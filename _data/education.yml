@@ -1,13 +1,23 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: MSc, Neuroscience
+  uni: McMaster University
+  year: 2020 &mdash; present
+  #awards:
+  #  - award: Summa Cumme Laude graduate
+  #  - award: Dean's Honour List
+  #summary: McMaster Students Union, McMaster International Students Society, McMaster Arthritis Society,  Sickkids @ Mac
+
+- degree: Bachelor of Science, Honours, Life Sciences
+  uni: McMaster University
+  year: 2016 &mdash; 2020
   awards:
     - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: Dean's Honour List
+  summary: McMaster Students Union, McMaster International Students Society, McMaster Arthritis Society,  Sickkids @ Mac
 
 - degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+  uni: Indian School Al Ghubra
+  year: 2016
+  #award: Most likely to succeed
+  summary: School Prefect, Organiser of the first ISG-MUN, Round Square ouncil Member
+  
