@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@gh-pages
+        uses: actions/checkout@master
         with:
           submodules: true
       - name: Publish Site
