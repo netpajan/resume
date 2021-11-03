@@ -1,4 +1,4 @@
-name: Publish Site
+name: jekyll-cd
 
 on:
   push:
@@ -6,18 +6,14 @@ on:
       - gh-pages
 
 jobs:
-  build-deploy:
+  build:
+
     runs-on: ubuntu-latest
-    environment: github-pages
 
     steps:
-      - name: Checkout Repo
+      - name: 🛎 Build new gh-pages website
         uses: actions/checkout@master
         with:
-          submodules: true
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
-        with:
-          githubToken: ${{ secrets.PERSONAL_TOKEN }}
-          cname: netpaj.me
-          args: --gc --minify --cleanDestinationDir
+          fetch-depth: 1
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master
